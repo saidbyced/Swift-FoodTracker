@@ -14,6 +14,7 @@
 		1B1457B724545F1700F0FB85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1457B624545F1700F0FB85 /* Assets.xcassets */; };
 		1B1457BA24545F1700F0FB85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1457B824545F1700F0FB85 /* LaunchScreen.storyboard */; };
 		1B1457C524545F1700F0FB85 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1457C424545F1700F0FB85 /* FoodTrackerTests.swift */; };
+		1B1457D02454AAFB00F0FB85 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1457CF2454AAFB00F0FB85 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		1B1457C024545F1700F0FB85 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1457C424545F1700F0FB85 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		1B1457C624545F1700F0FB85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B1457CF2454AAFB00F0FB85 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				1B1457AD24545F1500F0FB85 /* AppDelegate.swift */,
 				1B1457AF24545F1500F0FB85 /* SceneDelegate.swift */,
 				1B1457B124545F1500F0FB85 /* ViewController.swift */,
+				1B1457CF2454AAFB00F0FB85 /* RatingControl.swift */,
 				1B1457B324545F1500F0FB85 /* Main.storyboard */,
 				1B1457B624545F1700F0FB85 /* Assets.xcassets */,
 				1B1457B824545F1700F0FB85 /* LaunchScreen.storyboard */,
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B1457D02454AAFB00F0FB85 /* RatingControl.swift in Sources */,
 				1B1457B224545F1500F0FB85 /* ViewController.swift in Sources */,
 				1B1457AE24545F1500F0FB85 /* AppDelegate.swift in Sources */,
 				1B1457B024545F1500F0FB85 /* SceneDelegate.swift in Sources */,
@@ -363,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -380,6 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
