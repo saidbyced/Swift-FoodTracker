@@ -131,7 +131,8 @@ import UIKit
                 valueString = "\(rating) stars set."
             }
 
-            
+            button.accessibilityHint = hintString
+            button.accessibilityLabel = valueString
         }
     }
 }
