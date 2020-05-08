@@ -18,8 +18,13 @@ class Meal {
     // MARK: Initialisation
     init?(name: String, photo: UIImage?, rating: Int) {
 
-        // Initialisation should fail if there is no name or rating is negative.
-        if name.isEmpty || rating  < 0 {
+        // The name must not be empty
+        guard !name.isEmpty else {
+            return nil
+        }
+        
+        // The rating must be between 0 and 5 respectively
+        guard (rating >= 0 ) && (rating <= 5) else {
             return nil
         }
 
