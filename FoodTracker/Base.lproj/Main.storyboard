@@ -15,8 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="nZF-08-aaq">
-                                <rect key="frame" x="20" y="64" width="374" height="480.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="nZF-08-aaq">
+                                <rect key="frame" x="20" y="64" width="374" height="486.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ESj-UQ-ft9">
                                         <rect key="frame" x="0.0" y="0.0" width="86.5" height="20.5"/>
@@ -46,8 +46,8 @@
                                             <outletCollection property="gestureRecognizers" destination="pyG-gQ-BJm" appends="YES" id="NZk-Mx-QE6"/>
                                         </connections>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Lrp-gp-puh" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="436.5" width="252" height="44"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Lrp-gp-puh" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="436.5" width="252" height="50"/>
                                     </stackView>
                                 </subviews>
                                 <constraints>
@@ -67,6 +67,7 @@
                         <outlet property="mealNameLabel" destination="ESj-UQ-ft9" id="v8Z-H9-MUc"/>
                         <outlet property="nameTextField" destination="NT7-4c-KnQ" id="Xty-EV-8gr"/>
                         <outlet property="photoImageView" destination="ER0-Zq-YfT" id="4xE-Qk-Omz"/>
+                        <outlet property="ratingControl" destination="Lrp-gp-puh" id="qFb-LY-z2y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -76,7 +77,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-2371" y="-1544"/>
+            <point key="canvasLocation" x="-3133" y="-1323"/>
         </scene>
     </scenes>
     <resources>
