@@ -44,6 +44,7 @@
                                     <outlet property="nameLabel" destination="sMw-iL-HXO" id="BPN-Rq-pJG"/>
                                     <outlet property="photoImageView" destination="War-Iy-mDv" id="qZj-R0-jJR"/>
                                     <outlet property="ratingControl" destination="t5Q-kI-nIU" id="j7W-Hh-6VK"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="AOz-sF-2TR"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -62,7 +63,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jGF-87-Dxa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3309" y="-1859"/>
+            <point key="canvasLocation" x="-3572" y="-1860"/>
         </scene>
         <!--New Meal-->
         <scene sceneID="tne-QT-ifu">
@@ -134,7 +135,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-2458" y="-1860"/>
+            <point key="canvasLocation" x="-1999" y="-1860"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="EGP-ZU-dxC">
@@ -152,7 +153,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e59-iU-afp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3417.3913043478265" y="-1813.3928571428571"/>
+            <point key="canvasLocation" x="-4372" y="-1860"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="S2J-EL-Js3">
@@ -171,9 +172,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ja6-cc-osD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2564" y="-1813"/>
+            <point key="canvasLocation" x="-2781" y="-2164"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="AOz-sF-2TR"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="defaultPhoto" width="540" height="540"/>
     </resources>
